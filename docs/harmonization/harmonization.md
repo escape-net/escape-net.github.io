@@ -18,7 +18,7 @@ Before data can be incorporated into the database, data must be transformed acco
 
 In order to explain possible differences in the pooled dataset, we ask consortium partners to include, in the codebook, the local variable names, types, and coding as they are used in your respective cohorts as well as the variable transformation syntax.
 
-Please see an example of a filled-in codebook (cc resus tab) from the Dutch cohort [here](/texts/example-codebook.xlsx)
+Please see an example of a filled-in codebook (cc resus tab) from the Dutch cohort here <!---[here](/texts/example-codebook.xlsx)-->
 
 
 **In summary, the tasks for the local cohort owners include:**
