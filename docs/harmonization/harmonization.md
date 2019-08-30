@@ -9,19 +9,19 @@ permalink: /docs/harmonization
 **Data Harmonization.**
 {: .label .label-red}
 
-ESCAPE-NET data harmonization allows us to combine heterogeneous data sets from the involved project sites in order to carry out subsequent pooled analyses in WP3.  
+The ESCAPE-NET data harmonization effort allows us to combine heterogeneous data sets from the involved project sites in order to carry out subsequent pooled analyses in WP3.  
 
 The two interconnected data harmonization committees have created a list of variables which are common to all cohorts based on clinical relevance and availability,
 one for the [SCA (case) cohorts](/texts/EscN QC checklist case vMB_SK17062019.docx) and another for the [observational prospective population (longitudinal) cohorts](/texts/EscN QC checklist longitudinal vMB_SK14062019.docx).
 
 Before data can be incorporated into the database, data must be transformed according to the ESCAPE-NET variable lists.
 
-In order to explain possible differences in the pooled dataset, we ask consortium partners to include, in the codebook, the local variable names, types and coding as they are used in your respective cohorts as well as the variable transformation syntax.
+In order to explain possible differences in the pooled dataset, we ask consortium partners to include, in the codebook, the local variable names, types, and coding as they are used in your respective cohorts as well as the variable transformation syntax.
 
-Please see an example of a filled in codebook (cc resus tab) from the Dutch cohort [here](/texts/example-codebook.xlsx)
+Please see an example of a filled-in codebook (cc resus tab) from the Dutch cohort [here](/texts/example-codebook.xlsx)
 
 
-**In summary, the tasks for the local cohort owners includes:**
+**In summary, the tasks for the local cohort owners include:**
 
 <ol>
 

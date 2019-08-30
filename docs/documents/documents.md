@@ -6,7 +6,7 @@ nav_order: 5
 
 #### <a name="qtl"></a>[Standard Operating Procedure (SOP) – BC|GENOME](/texts/EscapeNet_SOP_Feb2019.pdf)
 
-Please refer to this standard operating procedure on user and data management in BC\|GENOME (ESCAPE-NET database). Among others it describes (3.2) how you can apply for a user account, (3.3) how to access the consortium server at Computerome and the BC\|GENOME dataset navigator as well as (4.2) how to request for export of result files from the secure environment.
+Please refer to this standard operating procedure on user and data management in BC\|GENOME (ESCAPE-NET database). Among others, it describes (3.2) how you can apply for a user account, (3.3) how to access the consortium server at Computerome and the BC\|GENOME dataset navigator as well as (4.2) how to request for the export of result files from the secure environment.
 
 ---
 
@@ -28,7 +28,7 @@ user profiles, and the changes logged in BC|GENOME.
 
 #### <a name="qtl"></a>[QC Checklist - case](/texts/EscN QC checklist case vMB_SK17062019.docx)
 
-Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it is in compliance with the ESCAPE-NET format.
+Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it complies with the ESCAPE-NET format.
 
 ---
 
