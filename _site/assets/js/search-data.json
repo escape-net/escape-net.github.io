@@ -3,22 +3,57 @@
     "id": "0",
     "title": "",
     "content": "404 Page not found :( The requested page could not be found.",
-    "url": "http://localhost:4000/escape-net/404.html",
+    "url": "http://localhost:4000/404.html",
     "relUrl": "/404.html"
   },
   "1": {
     "id": "1",
-    "title": "About",
-    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com You can find the source code for Minima at GitHub: jekyll / minima You can find the source code for Jekyll at GitHub: jekyll / jekyll",
-    "url": "http://localhost:4000/escape-net/about/",
-    "relUrl": "/about/"
+    "title": "Access the Jupyter web application",
+    "content": "Access the Jupyter web application Login to Computerome’s secure cloud desktop - For help, see On the virtual Desktop navigate to Applications / Internet and click the Firefox Web browser open Type URL: (https://risoe-r12-cn518/jupyter/) To create a new notebook, click on the “new” menu in the top right and select you preferred language (e.g., R)",
+    "url": "http://localhost:4000/docs/jupyter/access.html",
+    "relUrl": "/docs/jupyter/access.html"
   },
   "2": {
     "id": "2",
-    "title": "",
-    "content": "SOMETHING",
-    "url": "http://localhost:4000/escape-net/",
+    "title": "Database",
+    "content": "Joint database Both the WP2 and WP3 teams have been collaborated to build a secure data management and analysis platform where only authorized users of the ESCAPE-NET project are allowed to use data without risk of either unauthorized changes or unauthorized utilization of the shared data resources. The ESCAPE-NET database BC|GENOME and the surrounding analysis environment (Jupyter Notebook) is located on a private “secure cloud” server hosted on Computerome, the Danish National Supercomputer for Life Sciences. The server is accessed through a Linux Virtual Delivery Agent (VDA) that provides access to a virtual desktop (CentOS 7). The BC|GENOME graphical user interface and the Jupyter environments are accessed through the web browser on the secure virtual desktop. The server is network isolated, meaning that data can only get in or out of the server by the help of the data manager and dedicated Computerome personnel. Data management functionalities are restricted inside the virtual desktop: This means users are not able to download result files, graphs and metadata derived from research data without control of the BC|GENOME administrators and data manager. Before data can be incorporated into the database, data must be transformed according to the ESCAPE-NET variable lists (codebooks) agreed upon by the two data harmonization committees, one for the SCA (case) cohorts and another for the observational prospective population (longitudinal) cohorts.",
+    "url": "http://localhost:4000/docs/database",
+    "relUrl": "/docs/database"
+  },
+  "3": {
+    "id": "3",
+    "title": "Documents",
+    "content": "Standard Operating Procedure (SOP) – BC|GENOME Please refer to this standard operating procedure on user and data management in BC|GENOME (ESCAPE-NET database). Among others it describes (3.2) how you can apply for a user account, (3.3) how to access the consortium server at Computerome and the BC|GENOME dataset navigator as well as (4.2) how to request for export of result files from the secure environment. BC|GENOME User Guide This BC|GENOME user guide describes the general use, including upload of datasets (section 3.2) from the Computerome server to the BC|GENOME application (database). BC|GENOME Administration tools This document describes the tools for user and dataset management and for viewing BC|GENOME system logs. The first chapter contains general information for all users about accessing BC|GENOME main page and about changing user’s password. From the second chapter onwards tools for database administrators are described with the information about user profiles, and the changes logged in BC|GENOME. QC Checklist - case Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it is in compliance with the ESCAPE-NET format. QC Checklist - longitudinal Please refer to this checklist for longitudinal cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it is in compliance with the ESCAPE-NET format. List of installed R packages List of installed R packages (ignoring packages that come with R such as base and foreign) in the Jupyter application on ESCAPE-NET server.",
+    "url": "http://localhost:4000/docs/documents/documents.html",
+    "relUrl": "/docs/documents/documents.html"
+  },
+  "4": {
+    "id": "4",
+    "title": "Importing data tables from the joint database",
+    "content": "Importing data tables from the joint database To import data tables from the joint database, please use the r package bcjupyterimport, see here for code example. Only datasets that you have been granted access to, can be imported.",
+    "url": "http://localhost:4000/docs/jupyter/importing.html",
+    "relUrl": "/docs/jupyter/importing.html"
+  },
+  "5": {
+    "id": "5",
+    "title": "ESCAPE-NET",
+    "content": "User training and information on the ESCAPE-NET database BC|GENOME Dear consortium partners and users of BC|GENOME database. This page serves as a service, providing you with information and documentation concerning the implementation and use of our joint database. The collection of large patient cohorts in one joint harmonized database, in a highly secure setting, poses a new way to work for all of us. With this page, we strive to ease the transition into the new system.",
+    "url": "http://localhost:4000/",
     "relUrl": "/"
+  },
+  "6": {
+    "id": "6",
+    "title": "Jupyter Notebook",
+    "content": "Main features of the Jupyter web application. In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection. The ability to execute code from the browser, with the results of computations attached to the code which generated them. Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures, can be included inline. In-browser editing for rich text using the Markdown markup language, which can provide commentary for the code, is not limited to plain text. The ability to easily include mathematical notation within markdown cells using LaTeX, and rendered natively by MathJax. For a more complete overview see The Jupyter Notebook For a overview of the notebook document structure and use, please see Notebook user interface.",
+    "url": "http://localhost:4000/docs/jupyter",
+    "relUrl": "/docs/jupyter"
+  },
+  "7": {
+    "id": "7",
+    "title": "Secure transfer of transformed cohort data",
+    "content": "This document describes how to securely transfer transformed cohort data to RegionH for upload into the joint database. Before sending your data please make sure that the data has been properly transformed to the ESCAPE-NET format and fill in the data transformation quality control checklist. See qc checklist for case cohorts and qc checklist for longitudinal cohorts. When the transformation is done and you are ready to upload, please follow the steps below to securely transfer data. Create an encrypted 7z folder with the .csv files for each table. If you have any doubts about this step, see How to Create Encrypted Zip or 7z Archives on Any Operating System. Contact data manager (simon.mathis.koenig@regionh.dk). You will get a link that allows authenticated users to securely send files with end-to-end encryption. Clicking the link will take you to a page as depicted below. Tick the “File Encryption”, generate password and send the password in a text message to data manager, when you have sent the data. . Data manager will move the received data to the secure environment, hosting the joint database and upload the data into the database.",
+    "url": "http://localhost:4000/docs/database/transfer.html",
+    "relUrl": "/docs/database/transfer.html"
   }
   
 }

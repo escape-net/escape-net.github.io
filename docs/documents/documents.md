@@ -1,0 +1,45 @@
+---
+layout: default
+title: Documents
+nav_order: 4
+---
+
+#### <a name="qtl"></a>[Standard Operating Procedure (SOP) – BC|GENOME](/texts/EscapeNet_SOP_Feb2019.pdf)
+
+Please refer to this standard operating procedure on user and data management in BC\|GENOME (ESCAPE-NET database). Among others it describes (3.2) how you can apply for a user account, (3.3) how to access the consortium server at Computerome and the BC\|GENOME dataset navigator as well as (4.2) how to request for export of result files from the secure environment.
+
+---
+
+#### <a name="qtl"></a>[BC|GENOME User Guide](/texts/BCGENOME_User Guide_Dec2018.pdf)
+
+This BC\|GENOME user guide describes the general use, including upload of datasets (section 3.2) from the Computerome server to the BC\|GENOME application (database).
+
+---
+
+#### <a name="qtl"></a>[BC|GENOME Administration tools](/texts/BCGENOME_Administration_tools.pdf)
+
+This document describes the tools for user and dataset management and for viewing BC|GENOME system logs.
+The first chapter contains general information for all users about accessing BC|GENOME main page and about
+changing user’s password.
+From the second chapter onwards tools for database administrators are described with the information about
+user profiles, and the changes logged in BC|GENOME.
+
+---
+
+#### <a name="qtl"></a>[QC Checklist - case](/texts/EscN QC checklist case vMB_SK17062019.docx)
+
+Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it is in compliance with the ESCAPE-NET format.
+
+---
+
+#### <a name="qtl"></a>[QC Checklist - longitudinal](/texts/EscN QC checklist longitudinal vMB_SK14062019.docx)
+
+Please refer to this checklist for longitudinal cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it is in compliance with the ESCAPE-NET format.
+
+---
+
+#### <a name="qtl"></a>[List of installed R packages](/texts/installed_packages.txt)
+
+List of installed R packages (ignoring packages that come with R such as ```base``` and ```foreign```) in the Jupyter application on ESCAPE-NET server.  
+
+---
