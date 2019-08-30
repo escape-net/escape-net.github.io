@@ -2,7 +2,7 @@
 layout: default
 title: Secure transfer of transformed cohort data
 parent: Database
-nav_order: 2
+nav_order: 3
 ---
 
 This document describes how to securely transfer transformed cohort data to RegionH for upload into the joint database.
@@ -14,6 +14,6 @@ This document describes how to securely transfer transformed cohort data to Regi
     2. Contact data manager (simon.mathis.koenig@regionh.dk). You will get a link that allows authenticated users to securely send files with end-to-end encryption. Clicking the link will take you to a page as depicted below.
     3. Tick the "File Encryption", generate password and send the password in a text message to data manager, when you have sent the data.
 
-    ![filesender](/figs/filesender.png).
+    ![filesender](/figs/filesender.png)
 
 3. Data manager will move the received data to the secure environment, hosting the joint database and upload the data into the database.

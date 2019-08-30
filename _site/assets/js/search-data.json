@@ -16,7 +16,7 @@
   "2": {
     "id": "2",
     "title": "Database",
-    "content": "Joint database Both the WP2 and WP3 teams have been collaborated to build a secure data management and analysis platform where only authorized users of the ESCAPE-NET project are allowed to use data without risk of either unauthorized changes or unauthorized utilization of the shared data resources. The ESCAPE-NET database BC|GENOME and the surrounding analysis environment (Jupyter Notebook) is located on a private “secure cloud” server hosted on Computerome, the Danish National Supercomputer for Life Sciences. The server is accessed through a Linux Virtual Delivery Agent (VDA) that provides access to a virtual desktop (CentOS 7). The BC|GENOME graphical user interface and the Jupyter environments are accessed through the web browser on the secure virtual desktop. The server is network isolated, meaning that data can only get in or out of the server by the help of the data manager and dedicated Computerome personnel. Data management functionalities are restricted inside the virtual desktop: This means users are not able to download result files, graphs and metadata derived from research data without control of the BC|GENOME administrators and data manager. Before data can be incorporated into the database, data must be transformed according to the ESCAPE-NET variable lists (codebooks) agreed upon by the two data harmonization committees, one for the SCA (case) cohorts and another for the observational prospective population (longitudinal) cohorts.",
+    "content": "Joint database Both the WP2 and WP3 teams have been collaborated to build a secure data management and analysis platform where only authorized users of the ESCAPE-NET project are allowed to use data without risk of either unauthorized changes or unauthorized utilization of the shared data resources. The ESCAPE-NET database BC|GENOME and the surrounding analysis environment (Jupyter Notebook) is located on a private “secure cloud” server hosted on Computerome, the Danish National Supercomputer for Life Sciences. The server is accessed through a Linux Virtual Delivery Agent (VDA) that provides access to a virtual desktop (CentOS 7). The BC|GENOME graphical user interface and the Jupyter environments are accessed through the web browser on the secure virtual desktop. The server is network isolated, meaning that data can only get in or out of the server by the help of the data manager and dedicated Computerome personnel. Data management functionalities are restricted inside the virtual desktop: This means users are not able to download result files, graphs and metadata derived from research data without control of the BC|GENOME administrators and data manager.",
     "url": "http://localhost:4000/docs/database",
     "relUrl": "/docs/database"
   },
@@ -29,29 +29,36 @@
   },
   "4": {
     "id": "4",
-    "title": "Importing data tables from the joint database",
-    "content": "Importing data tables from the joint database To import data tables from the joint database, please use the r package bcjupyterimport, see here for code example. Only datasets that you have been granted access to, can be imported.",
-    "url": "http://localhost:4000/docs/jupyter/importing.html",
-    "relUrl": "/docs/jupyter/importing.html"
+    "title": "Data Harmonization",
+    "content": "Data Harmonization. ESCAPE-NET data harmonization allows us to combine heterogeneous data sets from the involved project sites in order to carry out subsequent pooled analyses in WP3. The two interconnected data harmonization committees have created a list of variables which are common to all cohorts based on clinical relevance and availability, one for the SCA (case) cohorts and another for the observational prospective population (longitudinal) cohorts. Before data can be incorporated into the database, data must be transformed according to the ESCAPE-NET variable lists. In order to explain possible differences in the pooled dataset, we ask consortium partners to include, in the codebook, the local variable names, types and coding as they are used in your respective cohorts as well as the variable transformation syntax. Please see an example of a filled in codebook (cc resus tab) from the Dutch cohort here In summary, the tasks for the local cohort owners includes: Fill in the codebook with the local variable coding Create a transformation syntax. The transformation syntax as noted in your codebook should correspond with the “real” transformation syntax used Create a data set of the transformed local variables. Each table (cc identifiers, cc basic, cc resus, etc.) should be stored in a separate .csv file Carry out quality control before transferring data for upload into the joint database",
+    "url": "http://localhost:4000/docs/harmonization",
+    "relUrl": "/docs/harmonization"
   },
   "5": {
     "id": "5",
+    "title": "Importing data tables from the joint database",
+    "content": "Importing data tables from the joint database To import data tables from the joint database, please use the r package bcjupyterimport. Only datasets that you have been granted access to, can be imported. R code example:",
+    "url": "http://localhost:4000/docs/jupyter/importing.html",
+    "relUrl": "/docs/jupyter/importing.html"
+  },
+  "6": {
+    "id": "6",
     "title": "ESCAPE-NET",
     "content": "User training and information on the ESCAPE-NET database BC|GENOME Dear consortium partners and users of BC|GENOME database. This page serves as a service, providing you with information and documentation concerning the implementation and use of our joint database. The collection of large patient cohorts in one joint harmonized database, in a highly secure setting, poses a new way to work for all of us. With this page, we strive to ease the transition into the new system.",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   },
-  "6": {
-    "id": "6",
+  "7": {
+    "id": "7",
     "title": "Jupyter Notebook",
     "content": "Main features of the Jupyter web application. In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection. The ability to execute code from the browser, with the results of computations attached to the code which generated them. Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures, can be included inline. In-browser editing for rich text using the Markdown markup language, which can provide commentary for the code, is not limited to plain text. The ability to easily include mathematical notation within markdown cells using LaTeX, and rendered natively by MathJax. For a more complete overview see The Jupyter Notebook For a overview of the notebook document structure and use, please see Notebook user interface.",
     "url": "http://localhost:4000/docs/jupyter",
     "relUrl": "/docs/jupyter"
   },
-  "7": {
-    "id": "7",
+  "8": {
+    "id": "8",
     "title": "Secure transfer of transformed cohort data",
-    "content": "This document describes how to securely transfer transformed cohort data to RegionH for upload into the joint database. Before sending your data please make sure that the data has been properly transformed to the ESCAPE-NET format and fill in the data transformation quality control checklist. See qc checklist for case cohorts and qc checklist for longitudinal cohorts. When the transformation is done and you are ready to upload, please follow the steps below to securely transfer data. Create an encrypted 7z folder with the .csv files for each table. If you have any doubts about this step, see How to Create Encrypted Zip or 7z Archives on Any Operating System. Contact data manager (simon.mathis.koenig@regionh.dk). You will get a link that allows authenticated users to securely send files with end-to-end encryption. Clicking the link will take you to a page as depicted below. Tick the “File Encryption”, generate password and send the password in a text message to data manager, when you have sent the data. . Data manager will move the received data to the secure environment, hosting the joint database and upload the data into the database.",
+    "content": "This document describes how to securely transfer transformed cohort data to RegionH for upload into the joint database. Before sending your data please make sure that the data has been properly transformed to the ESCAPE-NET format and fill in the data transformation quality control checklist. See qc checklist for case cohorts and qc checklist for longitudinal cohorts. When the transformation is done and you are ready to upload, please follow the steps below to securely transfer data. Create an encrypted 7z folder with the .csv files for each table. If you have any doubts about this step, see How to Create Encrypted Zip or 7z Archives on Any Operating System. Contact data manager (simon.mathis.koenig@regionh.dk). You will get a link that allows authenticated users to securely send files with end-to-end encryption. Clicking the link will take you to a page as depicted below. Tick the “File Encryption”, generate password and send the password in a text message to data manager, when you have sent the data. Data manager will move the received data to the secure environment, hosting the joint database and upload the data into the database.",
     "url": "http://localhost:4000/docs/database/transfer.html",
     "relUrl": "/docs/database/transfer.html"
   }

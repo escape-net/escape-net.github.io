@@ -2,7 +2,7 @@
 layout: default
 title: Access the Jupyter web application
 parent: Jupyter Notebook
-nav_order: 3
+nav_order: 4
 ---
 
 **Access the Jupyter web application**
