@@ -11,7 +11,7 @@ This document describes how to securely transfer transformed cohort data to Regi
 
 2. When the transformation is done and you are ready to upload, please follow the steps below to securely transfer data.
     1. Create an encrypted 7z folder with the .csv files for each table. If you have any doubts about this step, see [How to Create Encrypted Zip or 7z Archives on Any Operating System](https://www.howtogeek.com/203590/how-to-create-secure-encrypted-zip-or-7z-archives-on-any-operating-system/).
-    2. Contact data manager (simon.mathis.koenig@regionh.dk). You will get a link that allows authenticated users to securely send files with end-to-end encryption. Clicking the link will take you to a page as depicted below.
+    2. Contact data manager and you will get a link that allows authenticated users to securely send files with end-to-end encryption. Clicking the link will take you to a page as depicted below.
     3. Tick the "File Encryption", generate password and send the password in a text message to data manager, when you have sent the data.
 
     ![filesender](/figs/filesender.png)
