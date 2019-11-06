@@ -12,7 +12,7 @@ permalink: /docs/harmonization
 The ESCAPE-NET data harmonization effort allows us to combine heterogeneous data sets from the involved project sites in order to carry out subsequent pooled analyses in WP3.  
 
 The two interconnected data harmonization committees have created a list of variables which are common to all cohorts based on clinical relevance and availability,
-one for the [SCA (case) cohorts](/texts/EscN QC checklist case vMB_SK17062019.docx) and another for the [observational prospective population (longitudinal) cohorts](/texts/EscN QC checklist longitudinal vMB_SK14062019.docx).
+one for the SCA (case) cohorts and another for the observational prospective population (longitudinal) cohorts.
 
 Before data can be incorporated into the database, data must be transformed according to the ESCAPE-NET variable lists.
 
