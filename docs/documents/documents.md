@@ -26,7 +26,7 @@ user profiles, and the changes logged in BC|GENOME.
 
 ---
 
-#### <a name="qtl"></a>[QC Checklist - case](/texts/EscN QC checklist case vMB_SK17062019.docx)
+#### <a name="qtl"></a>[QC Checklist - case](/texts/EscN QC checklist case v13112019.docx)
 
 Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it complies with the ESCAPE-NET format.
 
