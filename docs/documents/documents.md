@@ -43,3 +43,9 @@ Please refer to this checklist for longitudinal cohorts when evaluating your tra
 List of installed R packages (ignoring packages that come with R such as ```base``` and ```foreign```) in the Jupyter application on ESCAPE-NET server.  
 
 ---
+
+#### <a name="qtl"></a>[Validation of transformed data uploaded to the ESCAPE-NET database](/texts/EscN data validation SK270919.docx)
+
+This document functions as a validation, to ensure that the uploaded transformed cohort data is inserted correctly in the joint database.
+
+---
