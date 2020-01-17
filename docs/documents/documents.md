@@ -49,3 +49,9 @@ List of installed R packages (ignoring packages that come with R such as ```base
 This document functions as a validation, to ensure that the uploaded transformed cohort data is inserted correctly in the joint database.
 
 ---
+
+#### <a name="qtl"></a>[Material for Amsterdam working-session](/texts/db - working session.pdf)
+
+Material for hands-on database working-session at the ESCAPE-NET working-session in Amsterdam 2020 
+
+---
