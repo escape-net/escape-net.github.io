@@ -26,6 +26,12 @@ user profiles, and the changes logged in BC|GENOME.
 
 ---
 
+#### <a name="qtl"></a>[ESCAPE-NET SCA cohort codebook](/texts/EscN SCA case codebook v2_191107.xlsx)
+
+Please fill in the codebook with the variables you have transformed to the listed ESCAPE-NET variable, including the local variable name, type, coding, and transformation syntax
+
+---
+
 #### <a name="qtl"></a>[QC Checklist - case](/texts/EscN QC checklist case v13112019.docx)
 
 Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it complies with the ESCAPE-NET format.
@@ -52,6 +58,6 @@ This document functions as a validation, to ensure that the uploaded transformed
 
 #### <a name="qtl"></a>[Material for Amsterdam working-session](/texts/db - working session.pdf)
 
-Material for hands-on database working-session at the ESCAPE-NET working-session in Amsterdam 2020 
+Material for hands-on database working-session at the ESCAPE-NET working-session in Amsterdam 2020
 
 ---
