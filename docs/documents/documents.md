@@ -32,6 +32,12 @@ Please fill in the codebook with the variables you have transformed to the liste
 
 ---
 
+#### <a name="qtl"></a>[ESCAPE-NET longitudinal cohort codebook](/texts/EscN longitudinal codebook  - 180220.xlsx)
+
+Please fill in the codebook with the variables you have transformed to the listed ESCAPE-NET variable, including the local variable name, type, coding, and transformation syntax
+
+---
+
 #### <a name="qtl"></a>[QC Checklist - case](/texts/EscN QC checklist case v13112019.docx)
 
 Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it complies with the ESCAPE-NET format.
