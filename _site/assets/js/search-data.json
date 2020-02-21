@@ -57,13 +57,27 @@
   },
   "8": {
     "id": "8",
+    "title": "R tutorials",
+    "content": "R Tutorials Data Manipulation in R This documents gives an introduction to data manipulation in R, using a basic set of tools from the packages dplyr, tidyr, ggplot2 and readr.",
+    "url": "http://localhost:4000/docs/tutorial/r_tutorials.html",
+    "relUrl": "/docs/tutorial/r_tutorials.html"
+  },
+  "9": {
+    "id": "9",
     "title": "Secure transfer of transformed cohort data",
     "content": "This document describes how to securely transfer transformed cohort data to RegionH for upload into the joint database. Before sending your data please make sure that the data has been properly transformed to the ESCAPE-NET format and fill in the data transformation quality control checklist. See qc checklist for case cohorts and qc checklist for longitudinal cohorts. When the transformation is done and you are ready to upload, please follow the steps below to securely transfer data. Create an encrypted 7z folder with the .csv files for each table. If you have any doubts about this step, see How to Create Encrypted Zip or 7z Archives on Any Operating System. Contact data manager and you will get a user account on a SFTP server, allowing you to move the data securely. To connect to the server you will need to download a SFTP client software. Please refer to WinSCP for Windows users and FileZilla for Mac or Linux users. Data manager will control the received data and move it to the secure environment, hosting the joint database and upload the data into the database.",
     "url": "http://localhost:4000/docs/database/transfer.html",
     "relUrl": "/docs/database/transfer.html"
   },
-  "9": {
-    "id": "9",
+  "10": {
+    "id": "10",
+    "title": "Tutorials",
+    "content": "Tutorials",
+    "url": "http://localhost:4000/docs/tutorial",
+    "relUrl": "/docs/tutorial"
+  },
+  "11": {
+    "id": "11",
     "title": "Validation of transformed data uploaded to the database",
     "content": "Validation When your transformed cohort data has been uploaded into the joint database, please log in to the database and confirm that your data are inserted correctly. For information on how to log in, please see Please compare your locally transformed data to the insert in the database and validate the: Number of records (rows) Variables included Distribution of data To validate the above, you can create a summary report by selecting the relevant data table and clicking Tools and Export &gt; Reports &gt; Summary. This summary report can be compared to the local summary statistics, sent with transformed data. If so desired, Simon Mathis Kønig will assist you in this process Be aware that the number of variables might differ from the transformed data as all variables from the ESCAPE-NET variable lists are included in the database. Any additionally included variables not present in transformed data will be coded as “-2: not recorded” in the database. Please fill in the validation document found here and send to data manager.",
     "url": "http://localhost:4000/docs/database/validation.html",

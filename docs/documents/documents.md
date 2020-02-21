@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Documents
-nav_order: 5
+nav_order: 6
 ---
 
 #### <a name="qtl"></a>[Standard Operating Procedure (SOP) – BC|GENOME](/texts/EscapeNet_SOP.pdf)
