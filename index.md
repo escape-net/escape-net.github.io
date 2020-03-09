@@ -8,7 +8,7 @@ nav_order: 1
   <h1>User training and information on the ESCAPE-NET database BC|GENOME.</h1>
 -->
 
-## User training and information on the ESCAPE-NET server and database BC|GENOMES
+## User training and information on the ESCAPE-NET server and database BC|GENOME
 
 <img src="/figs/logo.png" alt="Escape-Net logo" width="700" height="300">
 
