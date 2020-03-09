@@ -7,11 +7,12 @@ nav_order: 6
 #### <a name="qtl"></a>[ESCAPE-NET DATA DICTIONARY - SCA CASE COHORTS](/texts/ESCN SCA DATA DICTIONARY 130220.pdf)
 
 This document describes the data naming, -description, -type, and coding for the joint ESCAPE-NET data format. Please refer to this document when harmonizing local SCA cohort data.
+
 ---
 
 #### <a name="qtl"></a>[ESCAPE-NET DATA DICTIONARY - LONGITUDINAL COHORTS](/texts/ESCN LONGITUDINAL DATA DICTIONARY_200220.pdf)
 
-This document describes the data naming, -description, -type, and coding for the joint ESCAPE-NET data format. Please refer to this document when harmonizing local longitudinal cohort data. 
+This document describes the data naming, -description, -type, and coding for the joint ESCAPE-NET data format. Please refer to this document when harmonizing local longitudinal cohort data.
 
 ---
 
