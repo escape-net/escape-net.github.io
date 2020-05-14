@@ -4,7 +4,7 @@ title: Documents
 nav_order: 6
 ---
 
-#### <a name="qtl"></a>[ESCAPE-NET DATA DICTIONARY - SCA CASE COHORTS](/texts/ESCN SCA DATA DICTIONARY 130220.pdf)
+#### <a name="qtl"></a>[ESCAPE-NET DATA DICTIONARY - SCA CASE COHORTS](/texts/ESCN SCA DATA DICTIONARY - 240320.pdf)
 
 This document describes the data naming, -description, -type, and coding for the joint ESCAPE-NET data format. Please refer to this document when harmonizing local SCA cohort data.
 
@@ -71,6 +71,12 @@ List of installed R packages (ignoring packages that come with R such as ```base
 #### <a name="qtl"></a>[Validation of transformed data uploaded to the ESCAPE-NET database](/texts/EscN data validation SK270919.docx)
 
 This document functions as a validation, to ensure that the uploaded transformed cohort data is inserted correctly in the joint database.
+
+---
+
+#### <a name="qtl"></a>[Instructions for export of analysis results from the ESCAPE-NET server](/texts/rules_for_export.pdf)
+
+This document describes the instructions for export of analysis results from the ESCAPE-NET server.
 
 ---
 
