@@ -80,6 +80,13 @@ This document describes the instructions for export of analysis results from the
 
 ---
 
+#### <a name="qtl"></a>[Data Request Form](/texts/ESCAPE-NET Data Request Form.pdf)
+
+This form is intended for specification of the data required in connection with the publication proposal or
+research proposal.
+
+---
+
 #### <a name="qtl"></a>[Material for Amsterdam working-session](/texts/db - working session.pdf)
 
 Material for hands-on database working-session at the ESCAPE-NET working-session in Amsterdam 2020
