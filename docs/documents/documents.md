@@ -16,7 +16,7 @@ This document describes the data naming, -description, -type, and coding for the
 
 ---
 
-#### <a name="qtl"></a>[ESCAPE-NET DATA DICTIONARY - LONGITUDINAL COHORTS](/texts/ESCN LONGITUDINAL DATA DICTIONARY_200220.pdf)
+#### <a name="qtl"></a>[ESCAPE-NET DATA DICTIONARY - LONGITUDINAL COHORTS](/texts/ESCN LONGITUDINAL DATA DICTIONARY.pdf)
 
 This document describes the data naming, -description, -type, and coding for the joint ESCAPE-NET data format. Please refer to this document when harmonizing local longitudinal cohort data.
 
