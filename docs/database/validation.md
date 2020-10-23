@@ -9,7 +9,7 @@ nav_order: 3
 
 When your transformed cohort data has been uploaded into the joint database, please log in to the database and confirm that your data are inserted correctly.
 
-For information on how to log in, please [see](/texts/EscapeNet_SOP.pdf)
+For information on how to log in, please [see](/texts/EscapeNet_SOP_May2020.pdf)
 
 Please compare your locally transformed data to the insert in the database and validate the:
 

@@ -1,87 +1,80 @@
-{
-  "0": {
-    "id": "0",
-    "title": "",
-    "content": "404 Page not found :( The requested page could not be found.",
-    "url": "http://localhost:4000/404.html",
-    "relUrl": "/404.html"
-  },
-  "1": {
-    "id": "1",
+{"0": {
+    "doc": "Access the Jupyter web application",
     "title": "Access the Jupyter web application",
-    "content": "Access the Jupyter web application Login to Computerome’s secure cloud desktop - For help, see On the virtual Desktop navigate to Applications / Internet and click the Firefox Web browser open Type URL: (https://risoe-r12-cn518/jupyter/) To create a new notebook, click on the “new” menu in the top right and select you preferred language (e.g., R)",
+    "content": "Access the Jupyter web application . | Login to Computerome’s secure cloud desktop - For help, see . | On the virtual Desktop navigate to Applications / Internet and click the Firefox Web browser open . | Type URL: (https://risoe-r12-cn518/jupyter/) . | To create a new notebook, click on the “new” menu in the top right and select you preferred language (e.g., R) . | . ",
     "url": "http://localhost:4000/docs/jupyter/access.html",
     "relUrl": "/docs/jupyter/access.html"
-  },
-  "2": {
-    "id": "2",
+  },"1": {
+    "doc": "Database",
     "title": "Database",
-    "content": "Joint database Both the WP2 and WP3 teams have been collaborating to build a secure data management and analysis platform where only authorized users of the ESCAPE-NET project are allowed to use data without risk of either unauthorized changes or unauthorized utilization of the shared data resources. The ESCAPE-NET database BC|GENOME and the surrounding analysis environment (Jupyter Notebook) is located on a private “secure cloud” server hosted on Computerome, the Danish National Supercomputer for Life Sciences. The server is accessed through a Linux Virtual Delivery Agent (VDA) that provides access to a virtual desktop (CentOS 7). The BC|GENOME graphical user interface and the Jupyter environments are accessed through the web browser on the secure virtual desktop. The server is network isolated, meaning that data can only get in or out of the server by the help of the data manager and dedicated Computerome personnel. Data management functionalities are restricted inside the virtual desktop: This means users are not able to download result files, graphs and metadata derived from research data without control of the BC|GENOME administrators and data manager.",
+    "content": "Joint database . Both the WP2 and WP3 teams have been collaborating to build a secure data management and analysis platform where only authorized users of the ESCAPE-NET project are allowed to use data without risk of either unauthorized changes or unauthorized utilization of the shared data resources. The ESCAPE-NET database BC|GENOME and the surrounding analysis environment (Jupyter Notebook) is located on a private “secure cloud” server hosted on Computerome, the Danish National Supercomputer for Life Sciences. The server is accessed through a Linux Virtual Delivery Agent (VDA) that provides access to a virtual desktop (CentOS 7). The BC|GENOME graphical user interface and the Jupyter environments are accessed through the web browser on the secure virtual desktop. The server is network isolated, meaning that data can only get in or out of the server by the help of the data manager and dedicated Computerome personnel. Data management functionalities are restricted inside the virtual desktop: This means users are not able to download result files, graphs and metadata derived from research data without control of the BC|GENOME administrators and data manager. ",
     "url": "http://localhost:4000/docs/database",
     "relUrl": "/docs/database"
-  },
-  "3": {
-    "id": "3",
+  },"2": {
+    "doc": "Documents",
     "title": "Documents",
-    "content": "Standard Operating Procedure (SOP) – BC|GENOME Please refer to this standard operating procedure on user and data management in BC|GENOME (ESCAPE-NET database). Among others, it describes (3.2) how you can apply for a user account, (3.3) how to access the consortium server at Computerome and the BC|GENOME dataset navigator as well as (4.2) how to request for the export of result files from the secure environment. BC|GENOME User Guide This BC|GENOME user guide describes the general use, including upload of datasets (section 3.2) from the Computerome server to the BC|GENOME application (database). BC|GENOME Administration tools This document describes the tools for user and dataset management and for viewing BC|GENOME system logs. The first chapter contains general information for all users about accessing BC|GENOME main page and about changing user’s password. From the second chapter onwards tools for database administrators are described with the information about user profiles, and the changes logged in BC|GENOME. ESCAPE-NET SCA cohort codebook Please fill in the codebook with the variables you have transformed to the listed ESCAPE-NET variable, including the local variable name, type, coding, and transformation syntax ESCAPE-NET longitudinal cohort codebook Please fill in the codebook with the variables you have transformed to the listed ESCAPE-NET variable, including the local variable name, type, coding, and transformation syntax QC Checklist - case Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it complies with the ESCAPE-NET format. QC Checklist - longitudinal Please refer to this checklist for longitudinal cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it is in compliance with the ESCAPE-NET format. List of installed R packages List of installed R packages (ignoring packages that come with R such as base and foreign) in the Jupyter application on ESCAPE-NET server. Validation of transformed data uploaded to the ESCAPE-NET database This document functions as a validation, to ensure that the uploaded transformed cohort data is inserted correctly in the joint database. Material for Amsterdam working-session Material for hands-on database working-session at the ESCAPE-NET working-session in Amsterdam 2020",
+    "content": "Standard Operating Procedure (SOP) – BC|GENOME . Please refer to this standard operating procedure on user and data management in BC|GENOME (ESCAPE-NET database). Among others, it describes (3.2) how you can apply for a user account, (3.3) how to access the consortium server at Computerome and the BC|GENOME dataset navigator as well as (4.2) how to request for the export of result files from the secure environment. ESCAPE-NET DATA DICTIONARY - SCA CASE COHORTS . This document describes the data naming, -description, -type, and coding for the joint ESCAPE-NET data format. Please refer to this document when harmonizing local SCA cohort data. ESCAPE-NET DATA DICTIONARY - LONGITUDINAL COHORTS . This document describes the data naming, -description, -type, and coding for the joint ESCAPE-NET data format. Please refer to this document when harmonizing local longitudinal cohort data. BC|GENOME User Guide . This BC|GENOME user guide describes the general use, including upload of datasets (section 3.2) from the Computerome server to the BC|GENOME application (database). BC|GENOME Administration tools . This document describes the tools for user and dataset management and for viewing BC|GENOME system logs. The first chapter contains general information for all users about accessing BC|GENOME main page and about changing user’s password. From the second chapter onwards tools for database administrators are described with the information about user profiles, and the changes logged in BC|GENOME. ESCAPE-NET SCA cohort codebook . Please fill in the codebook with the variables you have transformed to the listed ESCAPE-NET variable, including the local variable name, type, coding, and transformation syntax . ESCAPE-NET longitudinal cohort codebook . Please fill in the codebook with the variables you have transformed to the listed ESCAPE-NET variable, including the local variable name, type, coding, and transformation syntax . QC Checklist - case . Please refer to this checklist for case cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it complies with the ESCAPE-NET format. QC Checklist - longitudinal . Please refer to this checklist for longitudinal cohorts when evaluating your transformation from local cohort variables to ESCAPE-NET format, to ensure that it is in compliance with the ESCAPE-NET format. List of installed R packages . List of installed R packages (ignoring packages that come with R such as base and foreign) in the Jupyter application on ESCAPE-NET server. Validation of transformed data uploaded to the ESCAPE-NET database . This document functions as a validation, to ensure that the uploaded transformed cohort data is inserted correctly in the joint database. Instructions for export of analysis results from the ESCAPE-NET server . This document describes the instructions for export of analysis results from the ESCAPE-NET server. Data Request Form . This form is intended for specification of the data required in connection with the publication proposal or research proposal. Material for Amsterdam working-session . Material for hands-on database working-session at the ESCAPE-NET working-session in Amsterdam 2020 . ",
     "url": "http://localhost:4000/docs/documents/documents.html",
     "relUrl": "/docs/documents/documents.html"
-  },
-  "4": {
-    "id": "4",
+  },"3": {
+    "doc": "Data Harmonization",
     "title": "Data Harmonization",
-    "content": "Data Harmonization. The ESCAPE-NET data harmonization effort allows us to combine heterogeneous data sets from the involved project sites in order to carry out subsequent pooled analyses in WP3. The two interconnected data harmonization committees have created a list of variables which are common to all cohorts based on clinical relevance and availability, one for the SCA (case) cohorts and another for the observational prospective population (longitudinal) cohorts. Before data can be incorporated into the database, data must be transformed according to the ESCAPE-NET variable lists. In order to explain possible differences in the pooled dataset, we ask consortium partners to include, in the codebook, the local variable names, types, and coding as they are used in your respective cohorts as well as the variable transformation syntax. Please see an example of a filled-in codebook (cc resus tab) from the Dutch cohort here In summary, the tasks for the local cohort owners include: Fill in the codebook with the local variable coding Create a transformation syntax. The transformation syntax as noted in your codebook should correspond with the “real” transformation syntax used Create a data set of the transformed local variables. Each table (cc identifiers, cc basic, cc resus, etc.) should be stored in a separate .csv file Carry out quality control before transferring data for upload into the joint database",
+    "content": "Data Harmonization. The ESCAPE-NET data harmonization effort allows us to combine heterogeneous data sets from the involved project sites in order to carry out subsequent pooled analyses in WP3. The two interconnected data harmonization committees have created a list of variables which are common to all cohorts based on clinical relevance and availability, one for the SCA (case) cohorts and another for the observational prospective population (longitudinal) cohorts. Before data can be incorporated into the database, data must be transformed according to the ESCAPE-NET variable lists. In order to explain possible differences in the pooled dataset, we ask consortium partners to include, in the codebook, the local variable names, types, and coding as they are used in your respective cohorts as well as the variable transformation syntax. Please see an example of a filled-in codebook (cc resus tab) from the Dutch cohort here . In summary, the tasks for the local cohort owners include: . | Fill in the codebook with the local variable coding | Create a transformation syntax. The transformation syntax as noted in your codebook should correspond with the “real” transformation syntax used | Create a data set of the transformed local variables. Each table (cc identifiers, cc basic, cc resus, etc.) should be stored in a separate .csv file | Carry out quality control before transferring data for upload into the joint database | . ",
     "url": "http://localhost:4000/docs/harmonization",
     "relUrl": "/docs/harmonization"
-  },
-  "5": {
-    "id": "5",
+  },"4": {
+    "doc": "Importing data tables from the joint database",
     "title": "Importing data tables from the joint database",
-    "content": "Importing data tables from the joint database To import data tables from the joint database, please use the r package bcjupyterimport. Only datasets that you have been granted access to, can be imported. R code example:",
+    "content": "Importing data tables from the joint database . To import data tables from the joint database, please use the r package bcjupyterimport. Only datasets that you have been granted access to, can be imported. R code example: . ",
     "url": "http://localhost:4000/docs/jupyter/importing.html",
     "relUrl": "/docs/jupyter/importing.html"
-  },
-  "6": {
-    "id": "6",
-    "title": "ESCAPE-NET",
-    "content": "User training and information on the ESCAPE-NET server and database BC|GENOMES Dear consortium partners and users of BC|GENOME database. This page serves as a service, providing you with information and documentation concerning the implementation and use of our joint database. The collection of large patient cohorts in one joint harmonized database, in a highly secure setting, poses a new way to work for all of us. With this page, we strive to ease the transition into the new system.",
+  },"5": {
+    "doc": "ESCAPE-NET",
+    "title": "User training and information on the ESCAPE-NET database BC|GENOME.",
+    "content": "--> ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },
-  "7": {
-    "id": "7",
+  },"6": {
+    "doc": "ESCAPE-NET",
+    "title": "User training and information on the ESCAPE-NET server and database BC|GENOME",
+    "content": ". Dear consortium partners and users of BC|GENOME database. This page serves as a service, providing you with information and documentation concerning the implementation and use of our joint database. The collection of large patient cohorts in one joint harmonized database, in a highly secure setting, poses a new way to work for all of us. With this page, we strive to ease the transition into the new system. ",
+    "url": "http://localhost:4000/#user-training-and-information-on-the-escape-net-server-and-database-bcgenome",
+    "relUrl": "/#user-training-and-information-on-the-escape-net-server-and-database-bcgenome"
+  },"7": {
+    "doc": "ESCAPE-NET",
+    "title": "ESCAPE-NET",
+    "content": " ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },"8": {
+    "doc": "Jupyter Notebook",
     "title": "Jupyter Notebook",
-    "content": "Jupyter Notebook Besides the joint database, hosting consortium data, The ESCAPE-NET server host a main resource for data analysis; the Jupyter Notebook environment. Jupyter Notebook is a web-based interactive computational environment that integrates code and code output into a single document that combines visualizations, narrative text, mathematical equations, and other rich media. Jupyter Notebook provides a graphical user interface that allows for live-coding much like R Studio, where the user can execute a code block and see the output of that code, printed below. For a overview of the notebook document structure and use, please see Notebook user interface. Main features of the Jupyter web application. In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection. The ability to execute code from the browser, with the results of computations attached to the code which generated them. Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures, can be included inline. In-browser editing for rich text using the Markdown markup language, which can provide commentary for the code, is not limited to plain text. The ability to easily include mathematical notation within markdown cells using LaTeX, and rendered natively by MathJax.",
+    "content": "Jupyter Notebook . Besides the joint database, hosting consortium data, The ESCAPE-NET server host a main resource for data analysis; the Jupyter Notebook environment. Jupyter Notebook is a web-based interactive computational environment that integrates code and code output into a single document that combines visualizations, narrative text, mathematical equations, and other rich media. Jupyter Notebook provides a graphical user interface that allows for live-coding much like R Studio, where the user can execute a code block and see the output of that code, printed below. For a overview of the notebook document structure and use, please see Notebook user interface. Main features of the Jupyter web application. | In-browser editing for code, with automatic syntax highlighting, indentation, and tab completion/introspection. | The ability to execute code from the browser, with the results of computations attached to the code which generated them. | Displaying the result of computation using rich media representations, such as HTML, LaTeX, PNG, SVG, etc. For example, publication-quality figures, can be included inline. | In-browser editing for rich text using the Markdown markup language, which can provide commentary for the code, is not limited to plain text. | The ability to easily include mathematical notation within markdown cells using LaTeX, and rendered natively by MathJax. | . ",
     "url": "http://localhost:4000/docs/jupyter",
     "relUrl": "/docs/jupyter"
-  },
-  "8": {
-    "id": "8",
+  },"9": {
+    "doc": "R tutorials",
     "title": "R tutorials",
-    "content": "R Tutorials Data Manipulation in R This documents gives an introduction to data manipulation in R, using a basic set of tools from the packages dplyr, tidyr, ggplot2 and readr.",
+    "content": "R Tutorials . Data Manipulation in R . This documents gives an introduction to data manipulation in R, using a basic set of tools from the packages dplyr, tidyr, ggplot2 and readr. ",
     "url": "http://localhost:4000/docs/tutorial/r_tutorials.html",
     "relUrl": "/docs/tutorial/r_tutorials.html"
-  },
-  "9": {
-    "id": "9",
+  },"10": {
+    "doc": "Secure transfer of transformed cohort data",
     "title": "Secure transfer of transformed cohort data",
-    "content": "This document describes how to securely transfer transformed cohort data to RegionH for upload into the joint database. Before sending your data please make sure that the data has been properly transformed to the ESCAPE-NET format and fill in the data transformation quality control checklist. See qc checklist for case cohorts and qc checklist for longitudinal cohorts. When the transformation is done and you are ready to upload, please follow the steps below to securely transfer data. Create an encrypted 7z folder with the .csv files for each table. If you have any doubts about this step, see How to Create Encrypted Zip or 7z Archives on Any Operating System. Contact data manager and you will get a user account on a SFTP server, allowing you to move the data securely. To connect to the server you will need to download a SFTP client software. Please refer to WinSCP for Windows users and FileZilla for Mac or Linux users. Data manager will control the received data and move it to the secure environment, hosting the joint database and upload the data into the database.",
+    "content": "This document describes how to securely transfer transformed cohort data to RegionH for upload into the joint database. | Before sending your data please make sure that the data has been properly transformed to the ESCAPE-NET format and fill in the data transformation quality control checklist. See qc checklist for case cohorts and qc checklist for longitudinal cohorts. | When the transformation is done and you are ready to upload, please follow the steps below to securely transfer data. | Create an encrypted 7z folder with the .csv files for each table. If you have any doubts about this step, see How to Create Encrypted Zip or 7z Archives on Any Operating System. | Contact data manager and you will get a user account on a SFTP server, allowing you to move the data securely. | To connect to the server you will need to download a SFTP client software. Please refer to WinSCP for Windows users and FileZilla for Mac or Linux users. | . | Data manager will control the received data and move it to the secure environment, hosting the joint database and upload the data into the database. | . ",
     "url": "http://localhost:4000/docs/database/transfer.html",
     "relUrl": "/docs/database/transfer.html"
-  },
-  "10": {
-    "id": "10",
+  },"11": {
+    "doc": "Tutorials",
     "title": "Tutorials",
-    "content": "Tutorials",
+    "content": "Tutorials . ",
     "url": "http://localhost:4000/docs/tutorial",
     "relUrl": "/docs/tutorial"
-  },
-  "11": {
-    "id": "11",
+  },"12": {
+    "doc": "Validation of transformed data uploaded to the database",
     "title": "Validation of transformed data uploaded to the database",
-    "content": "Validation When your transformed cohort data has been uploaded into the joint database, please log in to the database and confirm that your data are inserted correctly. For information on how to log in, please see Please compare your locally transformed data to the insert in the database and validate the: Number of records (rows) Variables included Distribution of data To validate the above, you can create a summary report by selecting the relevant data table and clicking Tools and Export &gt; Reports &gt; Summary. This summary report can be compared to the local summary statistics, sent with transformed data. If so desired, Simon Mathis Kønig will assist you in this process Be aware that the number of variables might differ from the transformed data as all variables from the ESCAPE-NET variable lists are included in the database. Any additionally included variables not present in transformed data will be coded as “-2: not recorded” in the database. Please fill in the validation document found here and send to data manager.",
+    "content": "Validation . When your transformed cohort data has been uploaded into the joint database, please log in to the database and confirm that your data are inserted correctly. For information on how to log in, please see . Please compare your locally transformed data to the insert in the database and validate the: . | Number of records (rows) | Variables included | Distribution of data | . To validate the above, you can create a summary report by selecting the relevant data table and clicking Tools and Export &gt; Reports &gt; Summary. This summary report can be compared to the local summary statistics, sent with transformed data. If so desired, Simon Mathis Kønig will assist you in this process . Be aware that the number of variables might differ from the transformed data as all variables from the ESCAPE-NET variable lists are included in the database. Any additionally included variables not present in transformed data will be coded as “-2: not recorded” in the database. Please fill in the validation document found here and send to data manager. ",
     "url": "http://localhost:4000/docs/database/validation.html",
     "relUrl": "/docs/database/validation.html"
   }
-  
 }

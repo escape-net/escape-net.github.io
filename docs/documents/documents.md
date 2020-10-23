@@ -10,7 +10,7 @@ Please refer to this standard operating procedure on user and data management in
 ---
 
 
-#### <a name="qtl"></a>[ESCAPE-NET DATA DICTIONARY - SCA CASE COHORTS](/texts/ESCN SCA DATA DICTIONARY - 240320.pdf)
+#### <a name="qtl"></a>[ESCAPE-NET DATA DICTIONARY - SCA CASE COHORTS](/texts/ESCN SCA DATA DICTIONARY.pdf)
 
 This document describes the data naming, -description, -type, and coding for the joint ESCAPE-NET data format. Please refer to this document when harmonizing local SCA cohort data.
 
