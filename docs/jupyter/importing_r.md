@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Importing data tables from the joint database
+title: Importing data tables from the joint database into R
 parent: Jupyter Notebook
 nav_order: 4
 ---
 
-**Importing data tables from the joint database**
+**Importing data tables from the joint database into R**
 {: .label .label-red}
 
 To import data tables from the joint database, please use the r package ```bcjupyterimport```. Only datasets that you have been granted access to, can be imported.
