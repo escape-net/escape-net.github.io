@@ -80,7 +80,7 @@ This document describes the instructions for export of analysis results from the
 
 ---
 
-#### <a name="qtl"></a>[Data Request Form](/texts/ESCAPE-NET Data Request Form.pdf)
+#### <a name="qtl"></a>[Data Request Form](/texts/ESCAPE-NET Data Request Form.docx)
 
 This form is intended for specification of the data required in connection with the publication proposal or
 research proposal.
