@@ -3,7 +3,7 @@ layout: default
 title: Documents
 nav_order: 6
 ---
-#### <a name="qtl"></a>[Standard Operating Procedure (SOP) – BC|GENOME](/texts/EscapeNet_SOP_May2020.pdf)
+#### <a name="qtl"></a>[Standard Operating Procedure (SOP) – BC|GENOME](/texts/ESCAPE-NET_DB_SOP.pdf)
 
 Please refer to this standard operating procedure on user and data management in BC\|GENOME (ESCAPE-NET database). Among others, it describes (3.2) how you can apply for a user account, (3.3) how to access the consortium server at Computerome and the BC\|GENOME dataset navigator as well as (4.2) how to request for the export of result files from the secure environment.
 
@@ -22,19 +22,9 @@ This document describes the data naming, -description, -type, and coding for the
 
 ---
 
-#### <a name="qtl"></a>[BC|GENOME User Guide](/texts/BCGENOME_User Guide_Dec2018.pdf)
+#### <a name="qtl"></a>[BC|INSIGHT MANUAL](/texts/BCINSIGHT-Manual.pdf)
 
-This BC\|GENOME user guide describes the general use, including upload of datasets (section 3.2) from the Computerome server to the BC\|GENOME application (database).
-
----
-
-#### <a name="qtl"></a>[BC|GENOME Administration tools](/texts/BCGENOME_Administration_tools.pdf)
-
-This document describes the tools for user and dataset management and for viewing BC|GENOME system logs.
-The first chapter contains general information for all users about accessing BC|GENOME main page and about
-changing user’s password.
-From the second chapter onwards tools for database administrators are described with the information about
-user profiles, and the changes logged in BC|GENOME.
+This BC\|INSIGHT manual, thoroughly describes the general use and various tools available in the research and data management application.
 
 ---
 
