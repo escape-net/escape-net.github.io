@@ -3,7 +3,7 @@ layout: default
 title: Documents
 nav_order: 6
 ---
-#### <a name="qtl"></a>[Standard Operating Procedure (SOP) – BC|GENOME](/texts/ESCAPE-NET_DB_SOP.pdf)
+#### <a name="qtl"></a>[Standard Operating Procedure (SOP) – BC|INSIGHT](/texts/ESCAPE-NET_DB_SOP.pdf)
 
 Please refer to this standard operating procedure on user and data management in BC\|GENOME (ESCAPE-NET database). Among others, it describes (3.2) how you can apply for a user account, (3.3) how to access the consortium server at Computerome and the BC\|GENOME dataset navigator as well as (4.2) how to request for the export of result files from the secure environment.
 
